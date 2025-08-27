@@ -58,8 +58,8 @@ Provision and manage AWS cloud infrastructure using **Terraform** with automatio
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/dilip8700/terraform-aws-vpc-ec2.git
+cd terraform-aws-vpc-ec2
 ```
 
 ### 2️⃣ Initialize Terraform
