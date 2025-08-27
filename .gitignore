@@ -1,3 +1,39 @@
+# Terraform caches and state
 .terraform/
 .terraform.lock.hcl
 *.tfstate*
+crash.log
+crash.*.log
+
+# Terraform plans and overrides
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.rc
+.terraformrc
+tf.plan
+*.plan
+
+# Local environment
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Agent outputs/artifacts
+agent/_last_report.md
+report.md
+agent/.env
+agent/generated_tf/.terraform/
+agent/generated_tf/.terraform.lock.hcl
+agent/generated_tf/tf.plan
+
+# OS/editor junk
+.DS_Store
+.vscode/
+.idea/
